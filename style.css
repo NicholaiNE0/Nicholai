@@ -1,0 +1,80 @@
+.circle {
+    height: 256px;
+    width: 256px;
+    background-color: #125777;
+    background-image: url('image/profile2.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    outline: 2px solid rgb(2, 13, 65);
+    
+}
+#circle-container{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-image: radial-gradient(circle at bottom,rgb(0, 204, 255)10%,rgb(0, 183, 255)30%,rgb(0, 153, 255)55%,rgb(0, 47, 255)100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#box{
+    height: auto;
+    width: 80%;
+    max-width: 600px;
+    min-width: 280px;
+    min-height: 100px;
+    background-color: rgba(158, 245, 230, 0.932);
+    border-radius: 10%;
+    outline: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: 1rem;
+   
+    padding: 20px;
+}
+#box-container{
+    height: 20%;
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;  
+}
+#box p {
+    margin: 0;
+}
+#box2{
+    width: 50%;
+    max-width: 250px;
+    min-width: 150px;
+    min-height: 100px;
+    background-color: rgba(158, 245, 230, 0.932);
+    border-radius: 10%;
+    outline: 1px solid black;
+
+ 
+    font-size: 1rem;
+    padding: 20px;
+}
+#box-container2{
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;  
+}
+
+#box2 ul {
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+    
+}
+#box2 li {
+    margin-bottom: 2px;
+    line-height: 1.2;
+}
+#box2 h2 {
+    text-align: center;
+    margin: 0 0 5px 0;
+}
